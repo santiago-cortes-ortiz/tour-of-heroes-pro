@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { APP_ROUTING } from './app.routes';
+
+//componentes
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
@@ -14,9 +17,11 @@ import { HeroesComponent } from './components/heroes/heroes.component';
     HomeComponent,
     AboutComponent,
     HeroesComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
