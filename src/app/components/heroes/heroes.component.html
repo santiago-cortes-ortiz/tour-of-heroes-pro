@@ -1,14 +1,15 @@
 <h1>Heroes de <small>Marvel y DC</small></h1>
 <hr>
 <div class="row row-cols-2 row-cols-md-3 g-4">
-    <div class="col" *ngFor="let heroe of heroes">
+    <div class="col animated fadeIn fast" *ngFor="let heroe of heroes">
         <div class="card h-100" >
           <img [src]="heroe.img" class="card-img-top" [alt]="heroe.nombre">
           <div class="card-body">
             <h5 class="card-title">{{ heroe.nombre }}</h5>
             <p class="card-text">{{ heroe.bio }}</p>
             <div class="d-grid gap-2">
-                <button class="btn btn-outline-primary" type="button">Ver mas</button>
+                <!-- <button class="btn btn-outline-primary" type="button">Ver mas</button> -->
+                <a href="">Ver mas ... link</a>
             </div>
         </div>
           <div class="card-footer">
