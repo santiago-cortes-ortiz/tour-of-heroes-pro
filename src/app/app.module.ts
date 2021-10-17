@@ -14,8 +14,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 //servicios
 
 import { HeroesService } from './services/heroes.service';
-import { HeroeComponent } from './heroe/heroe/heroe.component';
-
+import { HeroeComponent } from './components/heroe/heroe.component';
 @NgModule({
   declarations: [
     AppComponent,
