@@ -62,6 +62,10 @@ export class HeroesService{
     getHeroes(): Heroes[]{
         return this._heroes;
     }
+
+    getHeroe(idx: string){
+      return this._heroes[Number.parseInt(idx)];
+    }
     
 }
 
