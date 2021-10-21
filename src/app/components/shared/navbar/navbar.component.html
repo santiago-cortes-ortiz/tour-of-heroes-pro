@@ -20,10 +20,10 @@
             <a class="nav-link" routerLinkActive="active" [routerLink]="['/about']">About</a>
           </li>           
         </ul>
-        <form class="d-flex">
+        <div class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Buscar heroe..." aria-label="Search" (keyup.enter)="buscarHeore(buscarTexto.value)" #buscarTexto>
           <button class="btn btn-outline-primary" (click)="buscarHeore(buscarTexto.value)" type="button">Buscar</button>
-        </form>
+        </div>
       </div>
     </div>
   </nav>
