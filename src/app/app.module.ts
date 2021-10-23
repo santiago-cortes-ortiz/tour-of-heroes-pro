@@ -16,6 +16,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroesService } from './services/heroes.service';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeTargetaComponent } from './components/heroe-targeta/heroe-targeta.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    HeroeTargetaComponent
     
   ],
   imports: [
