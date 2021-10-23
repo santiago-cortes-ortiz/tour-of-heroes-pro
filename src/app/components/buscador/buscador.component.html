@@ -5,5 +5,5 @@
   No se encontraron coincidencias con el termino: " {{ termino }} "
 </div>
 <div class="row row-cols-2 row-cols-md-3 g-4">
-  <app-heroe-tarjeta [heroe]="h"  *ngFor="let h of heroes; let i = index"></app-heroe-tarjeta> 
+  <app-heroe-tarjeta [heroe]="h" [indice] ="i"  *ngFor="let h of heroes; let i = index"></app-heroe-tarjeta> 
 </div>
