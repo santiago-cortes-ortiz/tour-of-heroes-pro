@@ -22,6 +22,10 @@ export class BuscadorComponent implements OnInit {
     })
   }
 
+  hayHeroes(): boolean{
+    return this.heroes.length == 0 ? true: false;
+  }
+
 
 
 
