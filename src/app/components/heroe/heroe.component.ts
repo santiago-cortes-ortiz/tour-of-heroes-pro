@@ -13,6 +13,7 @@ export class HeroeComponent {
 
   constructor(private _servicioHeroes: HeroesService,private   _activatedRoute: ActivatedRoute) { 
     this._activatedRoute.params.subscribe( params => {
+      console.log(params)
       this.heroe = this._servicioHeroes.getHeroe(params['id']);
     })
   }
