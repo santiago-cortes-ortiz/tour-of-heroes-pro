@@ -4,6 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Images of the project
 
+## Banner principal
+
+![image](https://user-images.githubusercontent.com/59752118/139341043-8ccb2a93-0f9b-4ef4-9c72-f9c937d10f0e.png)
+
+## Section Heroes
+
+![image](https://user-images.githubusercontent.com/59752118/139341171-8ccb0b32-b7cb-418b-b77c-7374998bdc30.png)
+
+## Section Heroe
+
+![image](https://user-images.githubusercontent.com/59752118/139341258-b217c0d4-4c58-4c4e-9ec2-4bdf79f310d2.png)
 
 
 ## Development server
